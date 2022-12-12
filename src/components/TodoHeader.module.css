@@ -1,0 +1,30 @@
+.header {
+    padding: 1.5rem 0;
+    font-weight: 700;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-item {
+    display: flex;
+    align-items: flex-end;
+    gap: 0.5rem;
+}
+
+.created {
+    color: var(--blue);
+}
+
+.done {
+    color: var(--purple);
+}
+
+.counter {
+    background-color: var(--gray-400);
+    padding: 0.125rem 0.5rem;
+    border-radius: 40px;
+
+    color: var(--gray-200);
+    font-size: 0.75rem;
+}
